@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: inherit;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+/* Navbar */
+nav {
+    background: #222;
+    color: #fff;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #2d3f41;
+}
+
+.logo {
+    font-size: 22px;
+}
+
+/* Home Section Layout */
+.home {
+    background-color: black;
+    color:lightgray;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.home-container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Left Text */
+.home-text h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+
+
+.home-text p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* Right Image */
+.home-image img {
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+}
+
+/* About Section */
+.about-section {
+    background: #010101;
+    color: lightgray;
+}
+
+.about-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.about-text {
+    text-align: left;
+}
+
+.about-text h2 {
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.about {
+  border: none;
+}
+
+
+/* 2x2 Projects Grid */
+.project {
+  padding: 60px 8%;
+  background: black;
+  color: lightgray;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+
+/* Project Box */
+.project-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    color: black;
+}
+
+.project-card h3 {
+    color: #2196f3;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 16px;
+}
+
+/* Hover effect */
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+/* Contact Form */
+.contact-form {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Contact Section Layout */
+.contact-section {
+    background: #f4f4f4;
+}
+
+.contact-container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+/* Left Text */
+.contact {
+    background-color: rgb(0, 0, 0);
+}
+
+.contact-text  {
+    font-size: 32px;
+    margin-bottom: 15px;
+    flex: 1;
+    text-align: left;
+    color: lightgrey;
+}
+
+.contact-text p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Right Box */
+.contact-box {
+    flex: 1;
+    background: rgb(0, 0, 0);
+    color: lightgray;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.contact-box h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #00bcd4;
+}
+
+
